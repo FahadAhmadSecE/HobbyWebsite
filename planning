@@ -1,0 +1,77 @@
+!!PLANNING PAGE!!
+
+
+Homepage
+
+content should be about why videogames are a great hobby.
+
+The pros of it 
+
+Reaction time improvement studies  - info and image
+fine motor movement training - statistics
+problem solving - info and image
+Vocabulary Improvement - Info (opinion) and image
+
+When explaining these points, add Embeds to showcase some proof, should probably use flex to be able to put them on the same alignment
+
+Discussion Forum
+have pre set messages from other alleged users, allow the user of the website to post a message and have it displayed.
+
+Below is an example of displaying input on a html webpage
+
+<head>
+    <title>Input and Return Example</title>
+</head>
+<body>
+
+    <h1>Input and Return Example</h1>
+    <form id="inputForm">
+        <label for="userInput">Enter something:</label>
+        <input type="text" id="userInput" required>
+        <button type="submit">Submit</button>
+    </form>
+
+    <h2>Your Input:</h2>
+    <p id="output"></p>
+
+    <script>
+        document.getElementById('inputForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent form submission
+            const userInput = document.getElementById('userInput').value;
+            document.getElementById('output').textContent = userInput; // Display the input
+            document.getElementById('userInput').value = ''; // Clear the input field
+        });
+    </script>
+
+</body>
+</html>
+
+document.getelementbyid is used to declare the entire form tag, adding the event listener and prevent default stops the button from actually doing anything so we can re use it for our purpose.
+
+const user input allows us to take the input value from html and declare it a variable in JS.
+
+The tier list should contain a 
+Table is used for this 
+5 x ? (undecided because I am not sure how many games I will use)
+
+Tier    Logo & Name     pros (unordered list)   cons (<-)   Steps to install (ordered list)
+
+Add warning to always check where installing, and if other drives are owned to put it in a storage that doesnt have the OS, to improve performance
+
+Contact me should go in the footer, redirects user to a page talking about how to get in touch with me, as well as a bunch of filler about reserved rights.
+
+COLOR PALLETE
+backgrounds will be #B2BCAA 
+text backgrounds will be #122932
+Navigation bars  & footer will be #4C212A (Subject to change)
+
+font is  font-family: 'Trebuchet MS', sans-serif;
+
+
+Prediction of homepage
+I am going to make the entire page one flex box so that I can make a column flex box as a navigation sidebar
+and then the item directly to the side of it will be another container.
+
+to make the footer at the bottom, it will be another container on the OUTSIDE of the main container that has the sidebar
+this is because flex boxes stack horizontally, so when i place that footer on the bottom it will stack below the main information
+
