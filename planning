@@ -1,4 +1,4 @@
-!!PLANNING PAGE!!
+!!PLANNING PAGE!! REPORT BELOW
 
 
 Homepage
@@ -74,4 +74,8 @@ and then the item directly to the side of it will be another container.
 
 to make the footer at the bottom, it will be another container on the OUTSIDE of the main container that has the sidebar
 this is because flex boxes stack horizontally, so when i place that footer on the bottom it will stack below the main information
+
+----------------------- END OF PLANNING BELOW IS REPORT ----------------------------------------
+
+
 

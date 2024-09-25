@@ -2,17 +2,19 @@
     display: flex;
     flex-direction: column;
     width: 10%;
-    border: 2px solid rgb(255, 0, 0);
+    border: 2px;
    margin-right: 5%;
    padding: 2%;
    border-radius: 10px;
+   background-color: #122932;
+   color: antiquewhite;
 }
 
 .container {
     display: flex;
     padding: 1%;
-    border: 2px solid black;
-    width:fit-content;
+    border: 2px;
+    width:100%;
     height: fit-content;
     border-radius: 10px;
 
@@ -22,10 +24,11 @@
     display: flex;
   width: fit-content;
    height: fit-content;
-    border: 2px solid purple;
+    border: 2px;
     margin: 2%;
     border-radius: 10px;
-   
+    background-color: #122932;
+    color: antiquewhite;
 
 }
 
@@ -33,11 +36,10 @@
 
 .containerContent {
     display: flex;
-    width:fit-content;
+    width: 100%;
     height: fit-content;
-    border: 2px solid orange;
+    border: 2px;
     flex-direction: column;
-    word-wrap: break-word;
     margin-right: 1%;
     border-radius: 10px;
 
@@ -45,32 +47,40 @@
 
 div{
     padding: 2%;
-    border: 1px solid rgb(166, 255, 0);
+    border: 1px;
     margin: 2%;
     width: 60%;
     height: 30%;
     word-wrap: break-word; 
     overflow-wrap: break-word; 
     border-radius: 10px;
-
+    
 }
 
 a {
     padding: 2%;
-    border: 1px solid rgb(0, 4, 255);
+    border: 1px;
     margin: 2%;
     max-width: 65%;
     max-height: fit-content;
     word-wrap: break-word; 
     overflow-wrap: break-word; 
     border-radius: 10px;
+    color: antiquewhite;
+
 }
     td, table {
         border-collapse:collapse;
-        padding:10px; 
-        border: 2px solid rgb(255, 0, 149);
+        padding:30px; 
+        border: 2px ;
         margin-bottom: 2%;
         padding: 2%;
+        background-color: #122932;
+    color: antiquewhite;
+        
+    }
+    .name {
+        width:20px
     }
 
     * {
@@ -78,22 +88,39 @@ a {
     }
 
 .img {
-    margin-top: 12%;
+    margin-top: 6%;
     height: 10%;
     width: 10%;
 }
 
 .img2 {
-    margin-top: 15%;
+    margin-top: 5%;
     margin-right: 15%;
     height: 10%;
     width: 10%;
 }
 
-.containerFooter {
-width: 100%;
-height: 10%
-border 2px solid rgb(0, 162, 255);
-
-
+footer { 
+    border: 2px;
+    width:90%;
+    height: fit-content;
+    padding: 2%;
+    border-radius: 10px;
 }
+
+h1, h2{
+    border: 2px;
+    border-radius: 10px;
+    width: fit-content;
+    background-color: #122932;
+    color: antiquewhite;
+}
+
+body {
+    background-color: #B2BCAA;
+}
+
+a:hover{
+    background-color: #4C212A;
+}
+
